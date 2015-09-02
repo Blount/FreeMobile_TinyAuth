@@ -3,7 +3,7 @@
 // @namespace      freemobile
 // @description    Retour à l'ancien mode d'identification sur FreeMobile.
 // @include        https://mobile.free.fr/*
-// @updateURL      http://ilatumi.org/126488.meta.js
+// @updateURL      https://raw.githubusercontent.com/Blount/FreeMobile_TinyAuth/master/update.js
 // @version        2.7.1
 // @grant          all
 // @run-at         document-start
