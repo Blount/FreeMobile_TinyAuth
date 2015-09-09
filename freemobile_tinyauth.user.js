@@ -490,7 +490,7 @@ var sendForm = function (e) {
     } catch(e) {
         displayPanel();
         var span = document.createElement("span");
-        span.innerHTML = 'Détection automatique impossible : <a href="http://userscripts.org/scripts/show/126488">surveillez les mises à jour</a>.';
+        span.innerHTML = 'Détection automatique impossible : <a href="https://github.com/Blount/FreeMobile_TinyAuth">surveillez les mises à jour</a>.';
         span.style.fontWeight = "bold";
         document.getElementById("ident_blocd").insertBefore(span,
             document.getElementById("ident_div_ident"));
@@ -528,11 +528,11 @@ var drawScriptPanel = function () {
     style.innerHTML += " -->";
     document.head.appendChild(style);
 
-    var url = isOpera?"http://ilatumi.org/FreeMobile_TinyAuth.oex":"http://userscripts.org/scripts/source/126488.user.js";
+    var url = isOpera?"http://ilatumi.org/FreeMobile_TinyAuth.oex":"https://github.com/Blount/FreeMobile_TinyAuth/raw/master/freemobile_tinyauth.user.js";
     var container = document.createElement("div");
     container.setAttribute("class", "tinyAuthContainer");
     var contentHTML = "";
-    contentHTML += '<span class="title">TinyAuth '+version+'</span> : <a href="http://userscripts.org/scripts/show/126488">Home</a> | ';
+    contentHTML += '<span class="title">TinyAuth '+version+'</span> : <a href="https://github.com/Blount/FreeMobile_TinyAuth">Home</a> | ';
     contentHTML += '<a href="'+url+'">';
     contentHTML += '<img src="http://ilatumi.org/tinyauth-freemobile/version.php?v='+version+'" alt="Test de version en cours …" style="vertical-align: middle;" /></a>';
     contentHTML += '<div class="infos">';
