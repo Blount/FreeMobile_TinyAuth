@@ -17,8 +17,8 @@ var imgs = [];
 var isOpera = false;
 
 var options = {
-    timer: 0,
-    timerSubmit : 2000
+    timer: 1, // utiliser une temporisation avant l'envoi du formulaire (defaut: oui).
+    timerSubmit : 2000 // temps de la temporisation.
 }
 try {
     if (!unsafeWindow) {
